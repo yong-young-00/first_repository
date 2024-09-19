@@ -16,16 +16,52 @@
    * git init
 8. 원격저장소 설정
    * git remote add first_remote_repo https://github.com/.../first_repository.
-9. workspace 폴더 내 README.md 파일 생성 및 내용 작성
-10. 상태 확인
+
+# 파일 Push
+1. workspace 폴더 내 README.md 파일 생성 및 내용 작성
+2. 상태 확인
    * git status
-11. 저장소에 변경된 파일을 관리할 수 있도록 추가
+3. 저장소에 변경된 파일을 관리할 수 있도록 추가
    * git add.
    * git add README.md
-12. Local Repository에 저장
+4. Local Repository에 저장
    * git commit -m "first_commit"
    * commit 이름은 해당 작업에서 추가/변경된 사항을 간략히 작성
    * 다른 작업자가 알아볼 수 있도록 작성 및 되도록이면 영어로 작성한느 것을 추천
-13. Remote Repository에 저장
+5. Remote Repository에 저장
    * git push first_remote_repo master
+
+# README.md 파일
+* README.md 파일은 주로 프로필 혹은 Repository에 대한 설명을 나타내기 위해 작성
+* 소스를 정리하는데 큰 도움
+* 마크다운(MarkDown) 문법
+  - 사용이 쉽고, 마크업(MarkUp) 언어인 HTML 태그에 비해 간단하기 때문에 문서작성이 편리
+  - 마크다운을 지원하는 프로그램이나 사이트에서만 사용 가능
+## Header
+  * #... h{n} : #과 글자 사이에는 띄어쓰기로 구분
+## 줄바꿈 : 엔터 2번 
+
+## 순서가 있는 목록(ol : Ordered List) : 1.2.3. 과 같이 숫자를 나열
+
+## 구분선(Division Line) : -(하이픈) 혹은 *(어스터리스크) 3개 이상 사용
+***
+---
+
+## 코드블럭(Code Block) : 코드를 기준으로 위아래 빈 한줄씩 추가 && 코드를 기준으로 4칸 
+
+   Private String str;
+   Private int count;
+
+## 하이퍼링크(HyperLInk) : <>(앵글블라켓) 안에 http(s)를 포함하는 주소 입력
+<https://www.naver.com>
+
+
+
+
+
+
+
+
+
+
 
